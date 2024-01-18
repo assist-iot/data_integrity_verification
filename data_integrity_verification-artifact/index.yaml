@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  dltkv:
+  - apiVersion: v2
+    appVersion: 0.2.0
+    created: "2024-01-18T16:02:54.539140102+02:00"
+    description: A Helm chart for Kubernetes
+    digest: c830d4c8583c93bef51d18d7883a543774165c6d9046a9537fcfa04c3edb7aab
+    name: dltkv
+    type: application
+    urls:
+    - dltkv-0.2.0.tgz
+    version: 0.2.0
+generated: "2024-01-18T16:02:54.536218391+02:00"
