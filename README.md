@@ -6,7 +6,7 @@
 - DLT Helm charts have to be deployed on the SAME NODE of the cluster
 - Integrity chaincodes will be deployed with the current helm cart.
 - This is a quick README, a more fomal will be created.
-- For more information contact me: tzionasev@iti.gr
+- For more information contact: tzionasev@iti.gr
 
 ## Installation instructions
 #### Important note

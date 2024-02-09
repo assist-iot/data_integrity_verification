@@ -1,6 +1,6 @@
 apiVersion: v2
 name: dltkv
-description: A Helm chart for Kubernetes
+description: ASSIST-IoT DLT Integrity verification enabler
 
 # A chart can be either an 'application' or a 'library' chart.
 #
