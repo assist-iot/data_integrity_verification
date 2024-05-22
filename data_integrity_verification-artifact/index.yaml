@@ -3,12 +3,12 @@ entries:
   dltkv:
   - apiVersion: v2
     appVersion: 0.2.0
-    created: "2024-02-09T10:29:53.021283233+02:00"
+    created: "2024-05-22T16:06:29.918968311+03:00"
     description: ASSIST-IoT DLT Integrity verification enabler
-    digest: a510c5e7998896f33559118f3116ec0a46ef8dfce2a816cad5d930f537b5e843
+    digest: 347dabf05de657b6b757a4758d31c937b13441dea12b4e1950bd61ceb73bef66
     name: dltkv
     type: application
     urls:
     - dltkv-0.2.0.tgz
     version: 0.2.0
-generated: "2024-02-09T10:29:53.018258041+02:00"
+generated: "2024-05-22T16:06:29.916302776+03:00"

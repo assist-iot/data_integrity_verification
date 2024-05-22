@@ -28,7 +28,7 @@ helm uninstall integrity
 ```
 #### In case you want to use another name:
 ```
-cd hlf-helm
+cd data_integrity_verification
 ./scripts/packageCC.sh
 ```
 This will ask you for a $releaseName. Use the same $releaseName on you helm install command. Each time you want to use another name, you will have to run the packageCC.sh script and do it while in the data_integrity_verification folder.
@@ -59,7 +59,7 @@ Important note, you need to deploy the pod inside the same node, so in dltinspec
   nodeSelector:
     kubernetes.io/hostname: name_of_the_node
 ```
-Inside the hlf-helm fodler:
+Inside the data_integrity_verification fodler:
 ```
 kubectl apply -f dltinspectionpod.yaml
 kubectl exec -it inspect /bin/sh
@@ -70,7 +70,7 @@ rm -r data
 exit
 ```
 It returns resource is busy, but it gets cleaned.
-Back to the hlf-helm fodler:
+Back to the data_integrity_verification fodler:
 ```
 kubectl delete pod inspect
 ```
